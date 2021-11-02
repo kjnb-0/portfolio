@@ -1,38 +1,138 @@
-.App {
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --offwhite: honeydew;
+  --green: seagreen;
+  --purple: indigo;
+  --gray: dimgray;
+}
+
+html {
+  font-size: 110%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--offwhite);
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  height: 40px;
+  width: 100%;
+  background-color: var(--green);
+  color: var(--off-white);
+  padding-bottom: 20pt;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end;
 }
 
-.App-link {
-  color: #61dafb;
+nav ul {
+  padding: 0;
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+nav li {
+  display: inline;
+  float: left;
+}
+
+nav a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 0;
+  color: var(--off-white);
+}
+
+nav a:hover {
+color: var(--dark-grey);
+}
+
+nav li:hover {
+  background-color: var(--off-white);
+}
+
+nav a#openup {
+  display: none;
+}
+
+.nav-links a {
+  padding: 2rem; 
+  color: var(--green);
+}
+
+.welcome-section {
+  margin-top: 5rem;
+  border: 15px solid var(--indigo);
+}
+
+.welcome-section h2 {
+  border-bottom: 0.2rem solid var(--purple);
+  margin-bottom: 2rem;
+}
+
+.welcome-section img {
+  display: block;
+  margin: auto;
+}
+
+.wave {
+  width: auto;
+  height: auto;
+  margin: 0.5em 0.5em;
+}
+
+.wave::after {
+  content: '✋';
+  --emoji: '👋';
+  animation-name: twoFrames;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes twoFrames {
+  50% {
+      content: var(--emoji);
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.projects-header {
+  margin-top: 5rem;
+  border-bottom: 0.2rem solid var(--purple);
+  margin-bottom: 2rem;
+}
+
+
+.project-img:hover {
+  box-shadow: inset 0px 0px 10px var(--purple), 0 0 20px var(--purple);
+  transform: scale(1.1);
+} 
+
+#contact-header {
+  margin-top: 5rem;
+  border-bottom: 0.2rem solid var(--purple);
+  color: var(--gray);
+}
+
+.contact-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.contact-links a {
+  text-decoration: none;
+  font-size: 2.5rem;
 }
