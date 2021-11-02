@@ -80,6 +80,8 @@ nav li:hover {
 .welcome-section h2 {
   border-bottom: 0.2rem solid var(--purple);
   margin-bottom: 2rem;
+  color: var(--gray);
+
 }
 
 .welcome-section img {
