@@ -12,12 +12,10 @@ import { Projects } from "./components/Projects"
 function App() {
   return (
     <Fragment>
-      {/* <div id="showcase"> */}
       <Navbar />
       <Header />
       <Projects />
       <Footer />
-      {/* </div> */}
     </Fragment>
   );
 }

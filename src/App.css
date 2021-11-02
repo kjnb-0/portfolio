@@ -132,15 +132,6 @@ nav li:hover {
   width: 100%;
 }
 
-.projects-title h2 {
-  font-size: 3rem;
-  font-weight: 400;
-  line-height: 1.25;
-  padding-bottom: 25px;
-  display: block;
-  margin-top: 3rem;
-}
-
 .projects {
   display: grid;
   grid-gap: 20px;
@@ -298,7 +289,7 @@ nav li:hover {
 }
 
 @media screen and (max-width: 780px) {
-  .shows {
+  .projects {
     grid-template-columns: 1fr;
   }
 
@@ -310,7 +301,6 @@ nav li:hover {
   footer .footer-cols {
     display: none;
   }
-}
 
 @media screen and (max-height: 580px) {
   #showcase p.lead {
@@ -329,4 +319,5 @@ nav li:hover {
 
 .social-icon {
   margin: 1rem;
+}
 }

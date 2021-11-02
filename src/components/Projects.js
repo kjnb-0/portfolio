@@ -12,9 +12,3 @@ export const Projects = () => {
 };
 
 export default Projects;
-
-<section id="projects">
-  <div className="container">
-    <div className="projects"></div>
-  </div>
-</section>;
