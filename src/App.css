@@ -121,23 +121,14 @@ nav li:hover {
   transform: scale(1.1);
 } 
 
+/* footer/contact */
+
 #contact-header {
   margin-top: 5rem;
   border-bottom: 0.2rem solid var(--purple);
   color: var(--gray);
 }
 
-.contact-links {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-}
-
-.contact-links a {
-  text-decoration: none;
-  font-size: 2.5rem;
-}
 /* showcase */
 #showcase {
   margin: 0;
@@ -165,6 +156,12 @@ nav li:hover {
 font-size: 1.3rem;
 }
 
+.container {
+  max-width: 1180px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
 
 /* responsiveness */
 
@@ -280,4 +277,17 @@ font-size: 1.3rem;
         display: none;
     }
   }
+
+/* icons */
+
+.social-icons-container {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+
+.social-icon {
+    margin: 1rem;
+}
   

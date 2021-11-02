@@ -2,7 +2,7 @@ import React from "react";
 
 export const Header = () => {
   return (
-    <div>
+    <div className="container">
       <main className="welcome-section">
         <h2>Welcome to my portfolio!</h2>
         <h3>
