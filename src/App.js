@@ -10,10 +10,10 @@ import { Header } from "./components/Header";
 function App() {
   return (
     <Fragment>
-      <div id="showcase">
+      {/* <div id="showcase"> */}
       <Navbar />
       <Header />
-      </div>
+      {/* </div> */}
     </Fragment>
   );
 }
