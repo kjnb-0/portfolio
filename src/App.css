@@ -67,14 +67,15 @@ nav a#openup {
   display: none;
 }
 
-.nav-links a {
-  padding: 2rem; 
-  color: var(--green);
-}
 
 .welcome-section {
   margin-top: 5rem;
   border: 15px solid var(--indigo);
+  max-width: 1180px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 3rem;
+  border-radius: 15px;
 }
 
 .welcome-section h2 {
