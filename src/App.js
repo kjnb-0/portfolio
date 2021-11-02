@@ -6,6 +6,7 @@ import React, { Fragment } from "react";
 import { Navbar } from "./components/Navbar";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
+import { ProjectHead } from "./components/ProjectHead"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       {/* <div id="showcase"> */}
       <Navbar />
       <Header />
+      <ProjectHead />
       <Footer />
       {/* </div> */}
     </Fragment>
