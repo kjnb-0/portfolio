@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --offwhite: honeydew;
+    --green: seagreen;
+    --purple: indigo;
+    --gray: dimgray;
+}
+
+html {
+    font-size: 110%;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--offwhite);
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--offwhite);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none; 
+}
+
+.nav-list a {
+    padding: 2rem; 
+    text-decoration: none;
+    color: var(--green);
+}
+
+.welcome-section {
+    margin-top: 5rem;
+    border: 15px solid var(--indigo);
+}
+
+.welcome-section h2 {
+    border-bottom: 0.2rem solid var(--purple);
+    margin-bottom: 2rem;
+}
+
+.welcome-section img {
+    display: block;
+    margin: auto;
+}
+
+.wave {
+    width: auto;
+    height: auto;
+    margin: 0.5em 0.5em;
+}
+
+.wave::after {
+    content: '✋';
+    --emoji: '👋';
+    animation-name: twoFrames;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes twoFrames {
+    50% {
+        content: var(--emoji);
+    }
+}
+
+.projects-header {
+    margin-top: 5rem;
+    border-bottom: 0.2rem solid var(--purple);
+    margin-bottom: 2rem;
+}
+
+
+.project-img:hover {
+    box-shadow: inset 0px 0px 10px var(--purple), 0 0 20px var(--purple);
+    transform: scale(1.1);
+} 
+
+#contact-header {
+    margin-top: 5rem;
+    border-bottom: 0.2rem solid var(--purple);
+    color: var(--gray);
+}
+
+.contact-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.contact-links a {
+    text-decoration: none;
+    font-size: 2.5rem;
+}
