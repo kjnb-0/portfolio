@@ -21,12 +21,13 @@ const data = [
     img: cityScanImg,
     repo: "https://github.com/MichaelHermes/City-Scan",
     alt: "",
-    id: 1,
+    id: 2,
   },
 ];
 
 export const Project = () => {
   return (
+      <div className="container"> 
           <div className="projects">
             {data.map((project) => (
               <ProjectCard
@@ -39,6 +40,7 @@ export const Project = () => {
                 key={project.id}
               />
             ))}
+          </div>
           </div>
   );
 };

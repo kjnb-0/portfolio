@@ -9,8 +9,6 @@ export const ProjectCard = (props) => {
             <img src={props.img} alt={props.alt} />
           </a>
         </figure>
-      </div>
-      <div>
         <h2>{props.name}</h2>
         <p>{props.desc}</p>
         See the repo <a href={props.repo}> here,</a> or click image to see the
