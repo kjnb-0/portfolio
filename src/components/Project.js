@@ -6,6 +6,8 @@ import cityScanImg from "../images/City-Scan-Results.jpeg";
 import ReadMeImg from "../images/readme.png";
 import WorkoutImg from '../images/workout-tracker.png';
 import EmployeeImg from "../images/tracker.png";
+import WeatherImg from "../images/weather.png";
+import RegexImg from "../images/regex.png";
 
 const data = [
   {
@@ -19,7 +21,7 @@ const data = [
   },
   {
     name: "README Generator",
-    desc: "This is an automated README generator build with node.js and inquirer. The user enters answers to prompts in the command line and then a README file is automatically generated with their input.",
+    desc: "This is an automated README generator built with node.js and inquirer. The user enters answers to prompts in the command line and then a README file is automatically generated with their input.",
     url: "https://github.com/kjnb-0/readme-generator",
     img: ReadMeImg,
     repo: "https://github.com/kjnb-0/readme-generator",
@@ -43,6 +45,24 @@ const data = [
     repo: "https://github.com/kjnb-0/workout-tracker",
     alt: "",
     id: 4,
+  },
+  {
+    name: "Weather Dashboard",
+    desc: "Dashboard built with Javascript and OpenWeather API. User inputs city name to view current weather for that location as well as the five-day forecast.",
+    url: "https://kjnb-0.github.io/weather-display-dashboard/",
+    img: WeatherImg,
+    repo: "https://github.com/kjnb-0/weather-display-dashboard",
+    alt: "",
+    id: 5,
+  },
+  {
+    name: "Regex Tutorial - Matching an Email",
+    desc: "This is an overview of the regular expression used to match an email address.",
+    url: "https://gist.github.com/kjnb-0/2b390384632141c8ab6e09c39bdb5621",
+    img: RegexImg,
+    repo: "https://gist.github.com/kjnb-0/2b390384632141c8ab6e09c39bdb5621",
+    alt: "",
+    id: 6,
   },
 ];
 

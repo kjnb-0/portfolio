@@ -5,6 +5,7 @@ export const Header = () => {
     <div className="container">
       <main className="welcome-section">
         <h2>Welcome to my portfolio!</h2>
+        <div className="background-trans"> 
         <h3>
           Hi<span className="wave" role="img"></span>I'm Krista.
         </h3>
@@ -14,6 +15,7 @@ export const Header = () => {
           and having fun learning how to build useful, beautiful things on the
           internet.
         </p>
+        </div>
       </main>
     </div>
   );

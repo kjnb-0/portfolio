@@ -4,10 +4,10 @@
 }
 
 :root {
-  --offwhite: honeydew;
+  --offwhite: lavender;
   --green: rgb(46, 139, 87);
-  --purple: indigo;
-  --gray: dimgray;
+  --purple: rgb(75, 0, 130);
+  --gray: rgb(82, 80, 80);
 }
 
 html {
@@ -48,7 +48,7 @@ img {
 nav {
   height: 40px;
   width: 100%;
-  background-color: var(--green);
+  background-color: rgb(46, 139, 87, 0.8);
   color: var(--off-white);
   padding-bottom: 20pt;
   display: flex;
@@ -58,11 +58,13 @@ nav {
 nav ul {
   padding: 0;
   margin: 0;
+  color: var(--off-white);
 }
 
 nav li {
   display: inline;
   float: left;
+  color: var(--off-white);
 }
 
 nav a {
@@ -141,11 +143,11 @@ nav a {
 }
 
 .projects h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .projects p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .background-trans {
@@ -171,7 +173,7 @@ nav a {
 
   .projects {
     grid-template-columns: 1fr;
-  }  
+  }
 
   nav {
     height: auto;
