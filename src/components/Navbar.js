@@ -16,7 +16,7 @@ export const Navbar = () => {
             <li className="hide-on-small">
               <a href="#contact">Contact Me</a>
             </li>
-            <li className="hide-on-small">
+            {/* <li className="hide-on-small">
               <a
                 href="https://drive.google.com/file/d/1Ta0ex8llz71LtCb8pTOlLj4sgL3bpxjI/view?usp=sharing"
                 target="_blank"
@@ -24,7 +24,7 @@ export const Navbar = () => {
               >
                 Resume
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </header>
